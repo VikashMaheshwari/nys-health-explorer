@@ -1,0 +1,35 @@
+# Byte-compiled
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Data cache (will be fetched from API on deployment)
+nys_health_output/chirs_data_cache.csv
+
+# Old files not needed for deployment
+nys_public_health_analysis.py
+nys_health_dashboard.py
+dashboard.py
+create_resume_docx.py
+
+# Resume files
+*.pdf
+*.docx
+*.typ
+*.txt
+all_extract.txt
+titanic_extract.txt
+template.typ
+
+# Assignment files
+Assignment-2.pdf
+Titanic_VikashMaheshwari_Assignment-1.pdf
+Vikash_HW-3_FRED.pdf
+hw-4.pdf
+
+# Large CSV
+Community_Health_Indicator_Reports_*.csv
+
+# OS files
+.DS_Store
+Thumbs.db
